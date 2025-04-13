@@ -1,0 +1,117 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1, h2, h3 {
+    color: #2e8b57;
+}
+
+/* Header styles */
+header {
+    background-color: #2e8b57;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    color: white;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero section styles */
+.hero {
+    background-color: #4caf50;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* Services section styles */
+.services {
+    background-color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.service-item {
+    margin: 20px 0;
+}
+
+.service-item h3 {
+    margin-bottom: 10px;
+}
+
+/* About section styles */
+.about {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* Contact section styles */
+.contact {
+    background-color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact form input, .contact form textarea {
+    width: 300px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact form button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #2e8b57;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.contact form button:hover {
+    background-color: #1f5d3d;
+}
+
+/* Footer styles */
+footer {
+    background-color: #2e8b57;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
